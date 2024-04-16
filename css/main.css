@@ -1,0 +1,504 @@
+
+body { 
+
+    background-color: #50B810;
+    margin: auto;
+    max-width: 1300px;
+    background: linear-gradient(91deg, #2b76d5 0%, #ffffff 100%);
+    font-family: "Unbounded", sans-serif;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: white;
+}
+
+.start {
+    display:flex;
+    flex-direction: row;
+    margin-top: 100px;
+    height: 300px;
+}
+
+p, h1, h3, h2 {
+    color: white;
+    font-weight:500;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.register_col {
+    width: 50%;
+    margin-top: 60px;
+}
+
+.register_col2 {
+    width: 50%;
+}
+
+.register_col p,.register_col h1 {
+    max-width: 450px;
+}
+
+.register_img {
+    background-image: url('/gezondheidsmeter/assets/images/meter1.png');
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 300px;
+    display: block;
+}
+
+
+h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 1rem; 
+}
+
+.button_reg {
+    background-color: #4456d7;
+    border: none;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 2px 4px 9px 0px rgba(0,0,0,0.19);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+    border-bottom: 2px solid black;
+}
+
+.logo, .menu, .login {
+    display: flex;
+}
+
+.menu {
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.menu a {
+    padding: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+
+    background: white;
+    color: black;
+}
+
+a:hover {
+text-decoration: none;;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu a {
+    border: 2px solid black;
+    border-radius: 25px;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: #052117;
+    color: white;
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0B0028;
+    color: white;
+    text-align: center;
+    padding: 10px 50px;
+}
+
+.footer p {
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.over_ons {
+    display: flex;
+}
+
+
+.inner_col {
+    border: 1px solid black;
+    width: 500px;
+    height: 200px;
+    border-radius: 70px;
+    margin-right: 150px;
+}
+
+.inner_col2 {
+    border: 1px solid black;
+    width: 500px;
+    height: 200px;
+    border-radius: 70px;
+}
+
+.cards {
+    display: flex;
+    gap: 2rem;
+    margin-top: 150px;
+}
+.card {
+    padding: 30px 40px;
+    border-radius: 0.5rem;
+}
+.title > h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1vh;
+}
+.dark {
+    background: linear-gradient(12deg, #2b76d5 0%, #918e8e 100%);
+    border-radius: 91px;
+    max-width: 50%;
+    text-align: center;
+}
+
+.light {
+    background:  linear-gradient(12deg, #2b76d5 0%, #918e8e 100%);
+    border-radius: 91px;
+    max-width: 50%;
+    text-align: center;
+}
+
+.contact_bg form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 50px;
+    margin-top: 60px;
+}
+.contact_bg form  > h1 {
+    color: white;
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+.contact_bg form  > input, form > textarea {
+    color: white;
+    background: rgba(0, 0, 0, 0.05);
+    border: 0;
+    outline: 0;
+    border-radius: 0.5rem;
+    font-size: 18px;
+    padding: 10px;
+    width: 40%;
+    resize: vertical;
+}
+.contact_bg form  > textarea {
+    overflow: hidden;
+    max-height: 20vh;
+    min-height: 2.5rem;
+}
+.contact_bg form  > input[type=submit] {
+    cursor: pointer;
+    height: inherit;
+    width: 20%;
+    transition: all 0.45s ease;
+}
+.contact_bg form  > input[type=submit]:hover {
+    color: black;
+}
+
+.contact_bg {
+    background-image: url('/gezondheidsmeter/assets/images/schijf_vijf.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 650px 600px;
+    padding: 100px;
+}
+
+.contact_bg img {
+    width: 500px;
+}
+
+.hamburger {
+    display: none;
+    font-size: 30px;
+    user-select: none;
+}
+
+.button_reg:hover{
+    color: black;
+    background: #fdfbef;
+
+}
+
+.login {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+
+body {
+    overflow-x: hidden;
+}
+.start {
+    display:flex;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 550px;
+    flex-direction: column-reverse;
+    padding: 0 20px;
+}
+
+.register_col {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.register_col2 {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.register_img  {
+    width: 100%;
+    background-size: 350px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 450px 200px;
+}
+
+.button_reg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px; 
+}
+
+.navbar {
+    position: relative; 
+}
+
+.menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 1000;
+    background: #5760a8;
+}
+
+.menu a {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    background: #4456d7;
+}
+
+.menu a:last-child {
+    border-bottom: none;
+}
+
+.login {
+    display: none;
+}
+
+.cards {
+    display: flex;
+    gap: 2rem;
+    margin-top: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 0px 10px;
+}
+
+.light, .dark {
+    max-width: 100%;
+
+}
+
+.light, .dark p {
+    font-size: 12px;
+
+}
+
+.contact_bg form  > input, form > textarea {
+width: auto;
+}
+
+
+.contact_bg {
+    background-image: url('/gezondheidsmeter/assets/images/schijf_vijf.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 500px 500px;
+
+}
+
+.contact_bg form  {
+    padding: 0px;
+}
+
+.contact_bg form  > input[type=submit] {
+    width: 80%;
+    text-align: center;
+}
+
+.footer p {
+    font-weight: 600;
+    font-size: 10px;
+}
+}
+
+
+.question-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px; 
+    margin: 20px auto; 
+}
+
+.question-form h2 {
+    color: #333;
+    margin-bottom: 10px; 
+}
+
+.question-form label {
+    display: block;
+    margin: 5px 0 5px;
+    color: #333;
+}
+
+.question-form input[type="text"],
+.question-form input[type="number"],
+.question-form select {
+    width: calc(50% - 10px); 
+    padding: 8px;
+    margin-bottom: 5px; 
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    display: inline-block; 
+}
+
+.question-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px 0 0 0; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.option-row {
+    margin-bottom: 5px;
+}
+
+.option-row label,
+.option-row input {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.option-row .option-label {
+    width: auto; /
+}
+
+.option-row .option-input {
+    width: 60%; 
+}
+
+.option-row .points-label {
+    width: auto;
+}
+
+.option-row .points-input {
+    width: 15%;
+}
+
+.main-content.statistics {
+    text-align: center;
+}
+
+.pillar-score {
+    padding: 10px;
+    margin: 10px 0;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pillar-score p {
+    margin: 0;
+    font-weight: bold;
+}
+
